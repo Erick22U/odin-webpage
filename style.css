@@ -131,6 +131,28 @@ img{
     align-self: flex-end;
     font-weight: bold;
 }
+
+/* Sign up */
+.sign-up-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.sign-up{
+    display: flex;
+    background: #3882F6;
+    padding: 25px 50px;
+    border-radius: 10px;
+    color: white;
+    gap: 20px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
 /* footer */
 footer{
     background: #1F2937;
