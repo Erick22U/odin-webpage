@@ -110,6 +110,26 @@ img{
 /* Quote */
 .quote-div{
     background: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    width: 500px
+}
+.text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.source{
+    align-self: flex-end;
+    font-weight: bold;
 }
 /* footer */
 footer{
