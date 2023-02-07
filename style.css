@@ -137,21 +137,35 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 100px;
 }
 
 .sign-up{
     display: flex;
     background: #3882F6;
-    padding: 25px 50px;
     border-radius: 10px;
     color: white;
-    gap: 20px;
+    padding: 50px 100px;
+    gap: 100px;
 }
 
 .content{
     display: flex;
     flex-direction: column;
+}
+
+.cta-sign-up-div{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.cta-sign-up{
+    border-color: white;
+    color: white;
+    background: #3882F6;
+    border-radius: 5px;
+    padding: 10px 25px;
 }
 /* footer */
 footer{
